@@ -11,6 +11,28 @@ import pandas as pd
 import numpy as np
 import re
 import string
+import streamlit as st
+from sklearn import preprocessing
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from numpy import array
+from sklearn import tree
+from sklearn.naive_bayes import GaussianNB
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
+from sklearn.tree import DecisionTreeClassifier
+from collections import OrderedDict
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.datasets import make_classification
+from sklearn.svm import SVC
+import altair as alt
+from sklearn.utils.validation import joblib
+from sklearn import metrics
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import StackingClassifier
+import pickle
 
 data = pd.read_csv('https://raw.githubusercontent.com/Rosita19/pba/main/Tweet%20Bapak%20Jokowi%20-%20Tweet%20Bapak%20Jokowi.csv')
 
