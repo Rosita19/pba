@@ -1,20 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
-# import streamlit as st
-# import yfinance as yf
-# 
-# st.title("Stocks App")
-# symbol = st.text_input("Enter a stock symbol", "AAPL")
-# if st.button("Get Quote"):
-#     st.json(yf.Ticker(symbol).info)
-
-npm install localtunnel
-
-streamlit run app.py &>/content/logs.txt &
-
 """#Eksplorasi Data"""
 
 
