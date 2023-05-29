@@ -1,6 +1,8 @@
-
 numpy
 pandas
 matplotlib
-PySastrawi
-
+sklearn
+scikit-learn
+seaborn
+streamlit
+opencv-python-headless
