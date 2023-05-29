@@ -1,3 +1,4 @@
+python==3.10.8
 streamlit_option_menu==0.3.2
 numpy==1.20.2
 opencv-python-headless==4.6.0.66
@@ -5,4 +6,4 @@ pandas==1.4.3
 streamlit-aggrid==0.2.3.post2
 matplotlib==3.5.2
 scikit-image==0.19.2
-opencv-python-headless==3.10.8
+
