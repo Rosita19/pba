@@ -1,8 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
 
-!pip install -q streamlit
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import streamlit as st
@@ -13,9 +11,9 @@ warnings.filterwarnings('ignore')
 # if st.button("Get Quote"):
 #     st.json(yf.Ticker(symbol).info)
 
-!npm install localtunnel
+npm install localtunnel
 
-!streamlit run app.py &>/content/logs.txt &
+streamlit run app.py &>/content/logs.txt &
 
 """#Eksplorasi Data"""
 
